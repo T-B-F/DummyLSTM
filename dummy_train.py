@@ -35,7 +35,7 @@ learning_rate = 2e-3
 # saver
 outputdir = "./tmp"
 if not os.path.isdir(outputdir):
-    os.makesdir(outputdir)
+    os.makedirs(outputdir)
 
 ########################
 # Train 
